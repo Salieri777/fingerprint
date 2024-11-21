@@ -1,0 +1,8 @@
+data:
+  database_path: "data/nerf_database.csv"  # 数据库文件路径
+  map_path: "data/map.png"                # 地图图片路径
+
+train:
+  epochs: 50            # 训练轮数
+  batch_size: 32        # 批量大小
+  learning_rate: 0.001  # 学习率
